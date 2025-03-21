@@ -10,11 +10,11 @@ This project was completed as part of a SQL performance tuning exercise. The ori
 
 ## 📂 File Structure
 
-- `Query1.sql` – Aggregate publications by decade (excluding seasonal/special conferences)
-- `Query2.sql` – Count publications per conference
-- `Query3.sql` – Filter out patterns in booktitle (`ILIKE '%workshop%'`, etc.)
-- `Query4.sql` – Find top 10 authors publishing on topics related to "data"
-- `Query5.sql` – Identify June conferences with over 100 publications
+- `Query_4.1.sql` – Aggregate publications by decade (excluding seasonal/special conferences)
+- `Query_4.2.sql` – Count publications per conference
+- `Query_4.3.sql` – Filter out patterns in booktitle (`ILIKE '%workshop%'`, etc.)
+- `Query_4.4.sql` – Find top 10 authors publishing on topics related to "data"
+- `Query_4.5.sql` – Identify June conferences with over 100 publications
 - `Postgres_Query_Report.docx` – Full write-up including query tuning rationale, index strategy, performance comparisons, and caching effects
 
 ---

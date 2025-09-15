@@ -2,30 +2,30 @@
 
 
 ## 📖 Abstract
-This project focuses on query performance tuning in PostgreSQL, using a bibliographic dataset of computer science papers, authors, books, and conference proceedings. The goal was to practice query design, indexing strategies, and query plan analysis by answering a series of five analytical questions about conferences, authors, and publications.
-
-The workflow included:
-
-* Creating relational tables in PostgreSQL (articles, authors, books, inproceedings, proceedings, publications) and loading data from CSV extracts.
-
-* Writing SQL queries to answer tasks such as:
-
-*   Finding conferences with 200+ papers in a decade.
-
-*   Identifying authors with at least 10 publications in both PVLDB and SIGMOD.
-
-*   Summarizing conference publications by decade from 1970–2019.
-
-*   Ranking the top authors in “data”-related venues.
-
-*   Listing June conferences with over 100 proceedings.
-
-* Using EXPLAIN to study execution plans, compare queries with and without indexes, and evaluate cache effects.
-
-* Optimizing queries through indexing, improved join logic, and filtering on indexed columns.
-
-* Writing a report analyzing performance improvements, trade-offs, and index usage.
-
+This project focuses on query performance tuning in PostgreSQL, using a bibliographic dataset of computer science papers, authors, books, and conference proceedings. The goal was to practice query design, indexing strategies, and query plan analysis by answering a series of five analytical questions about conferences, authors, and publications.
+
+The workflow included:
+
+* Creating relational tables in PostgreSQL (articles, authors, books, inproceedings, proceedings, publications) and loading data from CSV extracts.
+
+* Writing SQL queries to answer tasks such as:
+
+*   Finding conferences with 200+ papers in a decade.
+
+*   Identifying authors with at least 10 publications in both PVLDB and SIGMOD.
+
+*   Summarizing conference publications by decade from 1970–2019.
+
+*   Ranking the top authors in “data”-related venues.
+
+*   Listing June conferences with over 100 proceedings.
+
+* Using EXPLAIN to study execution plans, compare queries with and without indexes, and evaluate cache effects.
+
+* Optimizing queries through indexing, improved join logic, and filtering on indexed columns.
+
+* Writing a report analyzing performance improvements, trade-offs, and index usage.
+
 Deliverables include individual .sql files for each query and a written report documenting how indexes improved query performance. This project strengthened my ability to design efficient SQL, interpret query plans, and optimize workloads in PostgreSQL, all essential skills for production-scale analytics.
 
 
@@ -127,4 +127,4 @@ Screenshot preview of written report (full DOCX/PDF in /deliverables/)
 
 
 
-*Generated automatically via Python + Jinja2 + SQL Server table `tblMiniProjectProgress` on 09-15-2025 00:58:11*
+*Generated automatically via Python + Jinja2 + SQL Server table `tblMiniProjectProgress` on 09-15-2025 18:04:17*

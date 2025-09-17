@@ -57,7 +57,7 @@ Deliverables include individual .sql files for each query and a written report d
 
 ## 📈 Outputs
 - 5 SQL query result sets answering rubric questions
-- EXPLAIN query plans before and after indexing
+- EXPLAIN query plans before and after indexing (see "Query_Plans_Before_and_After.xlsx")
 - Written report comparing performance improvements
 
 
@@ -105,4 +105,4 @@ Deliverables include individual .sql files for each query and a written report d
 - Archive final Word/PDF report and SQL files in repo
 
 
-*Generated automatically via Python + Jinja2 + SQL Server table `tblMiniProjectProgress` on 09-17-2025 17:44:16*
+*Generated automatically via Python + Jinja2 + SQL Server table `tblMiniProjectProgress` on 09-17-2025 17:47:12*

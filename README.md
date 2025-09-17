@@ -6,25 +6,16 @@ This project focuses on query performance tuning in PostgreSQL, using a bibliogr
 
 The workflow included:
 
-* Creating relational tables in PostgreSQL (articles, authors, books, inproceedings, proceedings, publications) and loading data from CSV extracts.
-
-* Writing SQL queries to answer tasks such as:
-
-*   Finding conferences with 200+ papers in a decade.
-
-*   Identifying authors with at least 10 publications in both PVLDB and SIGMOD.
-
-*   Summarizing conference publications by decade from 1970–2019.
-
-*   Ranking the top authors in “data”-related venues.
-
-*   Listing June conferences with over 100 proceedings.
-
-* Using EXPLAIN to study execution plans, compare queries with and without indexes, and evaluate cache effects.
-
-* Optimizing queries through indexing, improved join logic, and filtering on indexed columns.
-
-* Writing a report analyzing performance improvements, trade-offs, and index usage.
+- Creating relational tables in PostgreSQL (articles, authors, books, inproceedings, proceedings, publications) and loading data from CSV extracts.
+- Writing SQL queries to answer tasks such as:
+-   Finding conferences with 200+ papers in a decade.
+-   Identifying authors with at least 10 publications in both PVLDB and SIGMOD.
+-   Summarizing conference publications by decade from 1970–2019.
+-   Ranking the top authors in “data”-related venues.
+-   Listing June conferences with over 100 proceedings.
+- Using EXPLAIN to study execution plans, compare queries with and without indexes, and evaluate cache effects.
+- Optimizing queries through indexing, improved join logic, and filtering on indexed columns.
+- Writing a report analyzing performance improvements, trade-offs, and index usage.
 
 Deliverables include individual .sql files for each query and a written report documenting how indexes improved query performance. This project strengthened my ability to design efficient SQL, interpret query plans, and optimize workloads in PostgreSQL, all essential skills for production-scale analytics.
 
@@ -33,7 +24,7 @@ Deliverables include individual .sql files for each query and a written report d
 ## 🛠 Requirements
 - PostgreSQL 13+ installed locally
 - pgAdmin or psql CLI
-- DBLP dataset of computer science publications (provided via script/CSV export)
+- DBLP dataset of computer science publications (provided via Python script/CSV export)
 - Python script to download and parse dataset into CSV
 - GitHub repo with SQL files + written report (Word/PDF)
 
@@ -43,7 +34,7 @@ Deliverables include individual .sql files for each query and a written report d
 - Install PostgreSQL and pgAdmin (or use psql CLI)
 - Create database: CREATE DATABASE dblp;
 - Create tables: Articles, Authors, Books, Inproceedings, Proceedings, Publications
-- Run Python script to download and parse DBLP XML → CSVs
+- Run Python script to download and parse DBLP XML → CSVs (this is large file!)
 - Import CSVs into corresponding Postgres tables using pgAdmin import or COPY
 
 
@@ -71,37 +62,25 @@ Deliverables include individual .sql files for each query and a written report d
 
 
 
-## 📸 Evidence
-
-![query_plan_before.png](./evidence/query_plan_before.png)  
-Screenshot of EXPLAIN output before index
-
-![query_plan_after.png](./evidence/query_plan_after.png)  
-Screenshot of EXPLAIN output after index
-
-![word_report.png](./evidence/word_report.png)  
-Screenshot preview of written report (full DOCX/PDF in /deliverables/)
-
-
 
 
 ## 📎 Deliverables
 
-- [`- Individual SQL files for 5 rubric questions`](./deliverables/- Individual SQL files for 5 rubric questions)
+- [`Query_4.1.sql`](./deliverables/Query_4.1.sql)
 
-- [`- Written report:`](./deliverables/- Written report:)
+- [`Query_4.2.sql`](./deliverables/Query_4.2.sql)
 
-- [`- [Optimization Report (Word)](./deliverables/SQL_Optimization_Report.docx)`](./deliverables/- [Optimization Report (Word)](./deliverables/SQL_Optimization_Report.docx))
+- [`Query_4.3.sql`](./deliverables/Query_4.3.sql)
 
-- [`- [Optimization Report (PDF)](./deliverables/SQL_Optimization_Report.pdf)`](./deliverables/- [Optimization Report (PDF)](./deliverables/SQL_Optimization_Report.pdf))
+- [`Query_4.4.sql`](./deliverables/Query_4.4.sql)
 
-- [`- Raw EXPLAIN plans:`](./deliverables/- Raw EXPLAIN plans:)
+- [`Query_4.5.sql`](./deliverables/Query_4.5.sql)
 
-- [`- /deliverables/query_plan_before.txt`](./deliverables/- /deliverables/query_plan_before.txt)
+- [`PostgreSQL_Mini_Project_Report.pdf`](./deliverables/PostgreSQL_Mini_Project_Report.pdf)
 
-- [`- /deliverables/query_plan_after.txt`](./deliverables/- /deliverables/query_plan_after.txt)
+- [`Query_Plans_Before_and_After.xlsx`](./deliverables/Query_Plans_Before_and_After.xlsx)
 
-- [`- Execution logs (if captured) in /deliverables/logs/`](./deliverables/- Execution logs (if captured) in /deliverables/logs/)
+- [`dblp_extract.py`](./deliverables/dblp_extract.py)
 
 
 
@@ -126,5 +105,4 @@ Screenshot preview of written report (full DOCX/PDF in /deliverables/)
 - Archive final Word/PDF report and SQL files in repo
 
 
-
-*Generated automatically via Python + Jinja2 + SQL Server table `tblMiniProjectProgress` on 09-15-2025 19:27:09*
+*Generated automatically via Python + Jinja2 + SQL Server table `tblMiniProjectProgress` on 09-17-2025 17:38:56*

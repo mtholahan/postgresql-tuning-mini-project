@@ -76,9 +76,9 @@ Deliverables include individual .sql files for each query and a written report d
 
 - [`Query_4-5.sql`](./deliverables/Query_4-5.sql)
 
-- [`PostgreSQL_Mini_Project_Report.pdf`](./deliverables/PostgreSQL_Mini_Project_Report.pdf)
-
 - [`Query_Plans_Before_and_After.xlsx`](./deliverables/Query_Plans_Before_and_After.xlsx)
+
+- [`PostgreSQL_Mini_Project_Report.pdf`](./deliverables/PostgreSQL_Mini_Project_Report.pdf)
 
 - [`dblp_extract.py`](./deliverables/dblp_extract.py)
 
@@ -105,4 +105,4 @@ Deliverables include individual .sql files for each query and a written report d
 - Archive final Word/PDF report and SQL files in repo
 
 
-*Generated automatically via Python + Jinja2 + SQL Server table `tblMiniProjectProgress` on 09-17-2025 17:48:44*
+*Generated automatically via Python + Jinja2 + SQL Server table `tblMiniProjectProgress` on 09-17-2025 17:49:27*

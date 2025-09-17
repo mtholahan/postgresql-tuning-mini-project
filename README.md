@@ -66,15 +66,15 @@ Deliverables include individual .sql files for each query and a written report d
 
 ## 📎 Deliverables
 
-- [`Query_4.1.sql`](./deliverables/Query_4.1.sql)
+- [`Query_4-1.sql`](./deliverables/Query_4-1.sql)
 
-- [`Query_4.2.sql`](./deliverables/Query_4.2.sql)
+- [`Query_4-2.sql`](./deliverables/Query_4-2.sql)
 
-- [`Query_4.3.sql`](./deliverables/Query_4.3.sql)
+- [`Query_4-3.sql`](./deliverables/Query_4-3.sql)
 
-- [`Query_4.4.sql`](./deliverables/Query_4.4.sql)
+- [`Query_4-4.sql`](./deliverables/Query_4-4.sql)
 
-- [`Query_4.5.sql`](./deliverables/Query_4.5.sql)
+- [`Query_4-5.sql`](./deliverables/Query_4-5.sql)
 
 - [`PostgreSQL_Mini_Project_Report.pdf`](./deliverables/PostgreSQL_Mini_Project_Report.pdf)
 
@@ -105,4 +105,4 @@ Deliverables include individual .sql files for each query and a written report d
 - Archive final Word/PDF report and SQL files in repo
 
 
-*Generated automatically via Python + Jinja2 + SQL Server table `tblMiniProjectProgress` on 09-17-2025 17:38:56*
+*Generated automatically via Python + Jinja2 + SQL Server table `tblMiniProjectProgress` on 09-17-2025 17:41:31*
